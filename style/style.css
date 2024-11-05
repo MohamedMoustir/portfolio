@@ -10,7 +10,7 @@ body {
     width: 100%;
      background: #282162; 
      font-family: "Itim", cursive;
-     font-weight: 400;
+     /* font-weight: 400; */
     margin: 0;
     padding: 0;
     color: white;
@@ -310,7 +310,6 @@ header .continer_head{
     color: #7562E0;
 }
 .icons{
-   
     color: #7562E0;
     display: flex;
     gap: 20px;
@@ -318,6 +317,9 @@ header .continer_head{
 }
 .icons i{
    font-size: 30px;
+}
+.icons i:hover{
+color: violet;
 }
 .form_foter input{
   margin: 10px 0;
@@ -341,6 +343,10 @@ header .continer_head{
     border: 0;
     border-radius: 8px;
     background: violet;
+}
+.form_foter #submit:hover{
+    border: 2px solid ;
+    background: none;
 }
 input::placeholder,
 #text::placeholder{
